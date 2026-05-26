@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: grid;
+    margin: auto;
+    width: 1074px;
+    height: 600px;
+
+    /*border: solid 2px black;*/
+    grid-template-columns: auto auto;
+}
+
+img{
+    height: 100%;
+}
+/*div{
+    height: 50vh;
+    width: 100vh;
+}*/
+
+div{
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid black;*/
+    /*border: solid 2px black;*/
+    font-size: 30px;
+    text-align: center;
+    width: 538px;
+    height: 300px;
+}
+
+.box-1990s-linux-dawn{
+    position: relative;
+}
+
+.bolao1{
+    position: absolute;
+    width: 50%;
+    top: -40px;
+    left: 40px;
+    display: none;
+}
+
+.bolao2{
+    position: absolute;
+    width: 50%;
+    top: -50px;
+    left: 30px;
+    display: none;
+}
+
+.bolao3{
+    position: absolute;
+    width: 50%;
+    top: -50px;
+    left: 30px;
+    display: none;
+}
+
+.bolao4{
+    position: absolute;
+    width: 50%;
+    top: -60px;
+    left: 25px;
+    display: none;
+}
+
+.bolao-button1, .bolao-button2, .bolao-button3, .bolao-button4{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    /*background-color: blue;*/
+    position: absolute;
+}
+
+.bolao1, .bolao2, .bolao3, .bolao4{
+    transition-duration: 0.5s;
+}
+.bolao1:hover, .bolao2:hover, .bolao3:hover, .bolao4:hover{
+    width: 400px;
+    height: 400px;
+}
+
+.rodape{
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    transition-duration: 0.5s;
+    /*background-color: ;*/
+}
+
+.rodape p{
+    text-align: center;
+    color: white;
+}
+
+.title{
+    /*width: 250px;*/
+    color: white;
+    /*background-color: white;*/
+    text-align: center;
+    left: 50%;
+    /*position: absolute;*/
+    /*transform: translate(-50%, 0%);*/
+    transition-duration: 0.5s;
+}
+
+body{
+    background-color: blue;
+}
