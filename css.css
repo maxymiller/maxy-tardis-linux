@@ -22,7 +22,17 @@ img{
     width: 100vh;
 }*/
 
-div{
+/*div{*/
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid black;*/
+    /*border: solid 2px black;*/
+    /*font-size: 30px;
+    text-align: center;
+    width: 538px;
+    height: 300px;*/
+/*}*/
+
+.box-1990s-linux-dawn{
     /*background-color: #f1f1f1;*/
     /*border: 1px solid black;*/
     /*border: solid 2px black;*/
@@ -30,6 +40,10 @@ div{
     text-align: center;
     width: 538px;
     height: 300px;
+}
+
+.rodape{
+    font-size: 30px;
 }
 
 .box-1990s-linux-dawn{
