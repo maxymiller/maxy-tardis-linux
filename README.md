@@ -4,3 +4,6 @@
 ```
 https://github-maxy-tardis-linux.netlify.app/
 ```
+```
+https://maxymiller.github.io/maxy-tardis-linux/
+```
